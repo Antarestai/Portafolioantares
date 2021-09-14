@@ -1,0 +1,79 @@
+$color-principal:#FB2367;
+
+$color-secundario:#2d2c50;
+
+$box-shadow-principal:#FB2367 1px 1px 45px;
+
+$font-principal: "Amatic SC", cursive;
+
+$font-secundaria:"Monoton", cursive;
+
+$font-alterna: Roboto, sans-serif;
+
+
+
+
+.servicios {
+    background-color: #fb2367;
+    color: white;
+    padding: 5%;
+    text-align:center;
+    box-shadow: inset black 0px 0px 55px 30px;
+    .se-contenido-titulo {
+      hr {
+        width: 100%;
+        color: #fb2367;
+        height: 2px;
+      }
+    }
+    .se-contenido {
+      display: grid;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      justify-content: center;
+      margin-top: 5%;
+      gap: 5px;
+      margin: 0 5px 0 5px ;
+      min-height: 100px;
+    
+      .card {
+       
+        height: 30%;
+        border-color: #d30159;
+        
+        .card-body {
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+        }
+        img {
+          width: 20%;
+          height: auto;
+        }
+      }
+    }
+    .collapse {
+      .contenedorCards {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 5px;
+      
+        .card {
+        
+          height: 30%;
+         min-height: 50px;
+        
+          .card-body {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+          }
+          img {
+            width: 20%;
+            height: auto;
+          }
+        }
+      }
+    }}

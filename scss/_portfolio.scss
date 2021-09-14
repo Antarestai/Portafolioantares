@@ -1,0 +1,70 @@
+$color-principal:#FB2367;
+
+$color-secundario:#2d2c50;
+
+$box-shadow-principal:#FB2367 1px 1px 45px;
+
+$font-principal: "Amatic SC", cursive;
+
+$font-secundaria:"Monoton", cursive;
+
+$font-alterna: Roboto, sans-serif;
+
+
+
+
+img.imagenportfolio {
+    display: block;
+    width: 100%; 
+    border: 6px solid #FB2367;
+    transition: 0.5s
+  }
+  img.imagenportfolio:hover {
+      box-shadow: aqua 0px 0px 10px 10px;
+  }
+  
+
+  h1 {
+    font-size: 4rem;
+  
+   
+    
+  }
+
+  a {
+    color: #777;
+  }
+  
+  a:hover {
+    color: #777;
+  }
+  p {
+     margin-top:1rem;
+     margin-bottom:1rem;
+  }
+  .responsive ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem; 
+    margin-top: 3rem;
+    margin: 3rem 3% 0 3%;
+  }
+  .linkpagina {
+      text-decoration: none;
+      color: #fff;
+  }
+  .responsive2 ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem; 
+    margin-bottom:4rem;
+    margin: 0 3% 4rem 3%;
+  }
+  li {
+   list-style: none;
+  }
+  
+
+  
+  
+  
