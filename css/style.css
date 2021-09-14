@@ -613,7 +613,7 @@ header {
 
 .parallax-division {
   background-image: url("../imagenes/fondo_5.jpg");
-  height: 150px;
+  height: 180px;
   /* Efecto de scroll */
   background-attachment: fixed;
   background-position: center;
